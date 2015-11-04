@@ -3,7 +3,8 @@ package example
 import com.amazonaws.services.lambda.runtime.Context
 
 class Main {
-  def handler(count: Integer, context: Context): String = {
-    
+  def handler(context: Context): String = {
+    print("boom")
+    "boom"
   }
 }
